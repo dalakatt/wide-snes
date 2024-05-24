@@ -1,4 +1,7 @@
-```
+- name: Upload coverage reports to Codecov
+    uses: codecov/codecov-action@v4.0.1
+    with:
+      token: ${{ secrets.CODECOV_TOKEN }}```
 __          _______ _____  ______  _____ _   _ ______  _____    
 \ \        / /_   _|  __ \|  ____|/ ____| \ | |  ____|/ ____|   
  \ \  /\  / /  | | | |  | | |__  | (___ |  \| | |__  | (___     
